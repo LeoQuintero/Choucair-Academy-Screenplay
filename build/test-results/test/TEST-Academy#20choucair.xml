@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Academy choucair" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-13T17:30:22" hostname="CHBOGCR7KJ93" time="0.319">
+  <properties/>
+  <testcase name="Search for the automation course" classname="Academy choucair" time="0.319">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'than Leonardo wants to learn automation at the academy Choucair' and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;than Leonardo wants to learn automation at the academy Choucair&quot;)&#10;public void thanLeonardoWantsToLearnAutomationAtTheAcademyChoucair() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;he search for the course Metodología Bancolombia on the choucair academy platform&quot;)&#10;public void heSearchForTheCourseMetodologíaBancolombiaOnTheChoucairAcademyPlatform() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;he finds the course called resourses Metodología Bancolombia&quot;)&#10;public void heFindsTheCourseCalledResoursesMetodologíaBancolombia() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'than Leonardo wants to learn automation at the academy Choucair' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;than Leonardo wants to learn automation at the academy Choucair&quot;)
+public void thanLeonardoWantsToLearnAutomationAtTheAcademyChoucair() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;he search for the course Metodología Bancolombia on the choucair academy platform&quot;)
+public void heSearchForTheCourseMetodologíaBancolombiaOnTheChoucairAcademyPlatform() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;he finds the course called resourses Metodología Bancolombia&quot;)
+public void heFindsTheCourseCalledResoursesMetodologíaBancolombia() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

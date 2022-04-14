@@ -1,5 +1,6 @@
 package co.com.choucair.certification.academy.stepdefinitions;
 
+import co.com.choucair.certification.academy.tasks.Answer;
 import co.com.choucair.certification.academy.tasks.Login;
 import co.com.choucair.certification.academy.tasks.OpenUp;
 import co.com.choucair.certification.academy.tasks.Search;
@@ -7,6 +8,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -26,8 +28,8 @@ public class ChoucairAcademyStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
     }
 
-    @Then("^he finds the course called resourses Metodología Bancolombia$")
-    public void heFindsTheCourseCalledResoursesMetodologíaBancolombia() {
-
+    @Then("^he finds the course called resourses (.*)$")
+    public void heFindsTheCourseCalledResoursesMetodologíaBancolombia(String question) {
+//        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 }

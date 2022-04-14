@@ -5,6 +5,12 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class SearchCoursePage extends PageObject {
-    public static final Target SELECT_COURSE = Target.the("da click en sección universidad Choucair")
+    public static final Target BUTTON_UC = Target.the("Selecciona universidad Choucair")
             .located(By.xpath("//*[@id='universidad']/div[1]/a/h4"));
+    public static final Target INPUT_COURSE = Target.the("Buscar el curso")
+            .located(By.id("coursesearchbox"));
+    public static final Target BUTTON_GO = Target.the("Dar click para buscar el curso")
+            .located(By.xpath("//button[@class='btn btn-secondary']"));
+//    public static final Target SELECT_COURSE = Target.the("Escribir el nombre del curso")
+//            .located(By.id("yui_3_17_2_1_1649893859790_304"));
 }

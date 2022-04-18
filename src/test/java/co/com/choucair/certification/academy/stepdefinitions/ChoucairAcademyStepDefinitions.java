@@ -1,6 +1,5 @@
 package co.com.choucair.certification.academy.stepdefinitions;
 
-import co.com.choucair.certification.academy.tasks.Answer;
 import co.com.choucair.certification.academy.tasks.Login;
 import co.com.choucair.certification.academy.tasks.OpenUp;
 import co.com.choucair.certification.academy.tasks.Search;

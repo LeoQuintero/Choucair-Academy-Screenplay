@@ -1,5 +1,6 @@
 package co.com.choucair.certification.academy.stepdefinitions;
 
+import co.com.choucair.certification.academy.questions.Answer;
 import co.com.choucair.certification.academy.tasks.Login;
 import co.com.choucair.certification.academy.tasks.OpenUp;
 import co.com.choucair.certification.academy.tasks.Search;
@@ -29,6 +30,6 @@ public class ChoucairAcademyStepDefinitions {
 
     @Then("^he finds the course called resourses (.*)$")
     public void heFindsTheCourseCalledResoursesMetodologíaBancolombia(String question) {
-//        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 }
